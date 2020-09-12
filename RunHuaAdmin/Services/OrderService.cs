@@ -20,7 +20,7 @@ namespace RunHuaAdmin.Services
                 newResult.Add(new OrderViewModel(){CompanyName = i.CompanyName, StudentName = tempList[o].StudentName, Color = i.Color});
             }
 
-            return null;
+            return newResult;
         }
     }
 }
